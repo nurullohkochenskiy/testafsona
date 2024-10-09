@@ -1,0 +1,175 @@
+.about__container__wrapper {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(255, 255, 255, 1);
+  .about__container {
+    display: flex;
+    width: 100%;
+    .mainpic__wrapper {
+      .mainpic {
+        background-image: url("../../public/images/penang.webp");
+      }
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+   
+      .logo {
+        display: inline-flex; // Changed from flex to inline-flex
+        align-items: center;
+        background-color: #23bfef;
+        padding: 7px 15px;
+        width: auto; // Ensure it only takes the necessary width
+        border-radius: 20px;
+        .dot {
+          background-color: rgba(255, 255, 255, 1);
+          width: 3px;
+          height: 3px;
+          box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 0.6);
+        }
+        .text__logo {
+          padding-left: 10px;
+          display: flex;
+          font-size: 16px;
+          text-transform: uppercase;
+          line-height: 100%;
+          vertical-align: top;
+          font-weight: 300;
+        }
+      }
+      h1 {
+        font-size: 2.5vw;
+        font-weight: 700;
+      }
+      .main__info {
+        font-size: 16px;
+        color: rgba(140, 140, 140, 1);
+        line-height: 22px;
+        p {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .pics {
+      display: flex;
+      flex-direction: column;
+      .firstpic {
+        border-radius: 20px;
+        height: 55%;
+        width: 100%;
+        background-image: url("../../public/images/egypt.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 200px;
+        margin-bottom: 20px;
+      }
+      .secondpic {
+        border-radius: 20px;
+        height: 55%;
+        width: 100%;
+        background-image: url("../../public/images/langkawi.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 200px;
+      }
+    }
+  }
+}
+@media (max-width: 479px) {
+  .about__container__wrapper {
+    .about__container {
+      flex-direction: column;
+      .text {
+        width: 100%;
+        h1 {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .about__container__wrapper {
+    .about__container {
+      .text {
+        h1 {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  .about__container__wrapper .about__container .text {
+    width: 60%;
+    padding-right: 15px;
+    align-items: start;
+  }
+  .about__container__wrapper .about__container .pics {
+    width: 40%;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .about__container .mainpic__wrapper {
+    display: none;
+  }
+  .about__container__wrapper {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    .about__container {
+      .text {
+        align-items: center;
+        h1 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 479px) {
+  .about__container {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .about__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .mainpic__wrapper {
+      width: 25%;
+      display: block;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      position: relative;
+      background-image: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 1) 20%,
+          rgba(255, 255, 255, 0) 20%
+        ),
+        linear-gradient(rgba(255, 255, 255, 1) 20%, #23bfef 20%);
+      border-bottom-right-radius: 20px;
+      .mainpic {
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 400px;
+        height: 100%;
+        border-radius: 20px;
+      }
+    }
+    .text {
+      width: 50%;
+      padding-left: 60px;
+      padding-right: 60px;
+      align-items: start;
+    }
+    .pics {
+      width: 25%;
+    }
+  }
+}

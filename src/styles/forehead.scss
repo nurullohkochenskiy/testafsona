@@ -1,0 +1,35 @@
+.order_call {
+  box-shadow: 0px 30px 26px -12px rgba(35, 191, 239, 0.6);
+  text-shadow: 1px 1px 0px rgba(32, 36, 44, 0.2);
+  transition: all ease 0.3s;
+}
+.order_call:hover {
+  box-shadow: none;
+}
+
+@media (min-width: 480px) {
+  .city {
+    margin-left: 44px;
+  }
+}
+
+@media (min-width: 992px) {
+  .forehead {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(35, 191, 239, 1) 40%,
+        rgba(35, 191, 239, 1) 60%,
+        rgba(44, 167, 53, 0) 60%
+      ),
+      linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 90%);
+  }
+}
+@media (max-width: 991px) {
+  .order_call_wrapper {
+    display: none;
+  }
+  // .motto{
+  //   max-width: 100% !important;
+  // }
+}

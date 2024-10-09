@@ -1,0 +1,168 @@
+{
+  "Layout": {
+    "header": {
+      "navbar": {
+        "mainpage": "Home",
+        "aboutpage": "About",
+        "paymentMethods": "Payment methods",
+        "contacts": "Contacts",
+        "login": "Login",
+        "search": "Search"
+      }
+    },
+    "forehead": {
+      "description": "travel agency",
+      "ordercallbtn": "Order a tour"
+    },
+    "ordercallsection": {
+      "sectionName": "We will find the best solution",
+      "heading": "Contact us",
+      "yourname": "Your name",
+      "yournumber": "Your phone number",
+      "sendbtn": "Send"
+    },
+    "paymentmethods": {
+      "sectionName": "Payment methods",
+      "heading": "We accept these payment methods"
+    },
+    "footer": {
+      "contactus": "Contact us",
+      "ourlocation": "Our office:",
+      "location": "Namangan, Jumashuy city, Ozodlik street",
+      "openinmaps": "Check in a map"
+    },
+    "ordercallmodal": {
+      "heading": "Contact us",
+      "yourname": "Your name",
+      "yournumber": "Your phone number",
+      "sendbtn": "Order a call"
+    },
+    "notification": {
+      "sentSuccessfully": "Successfull, we will contact you soon!",
+      "sentFailed": "Failed to send message. Please try again."
+    }
+  },
+  "HomePage": {
+    "cta": {
+      "heading": "Preparing for a vacation with us is very easy! Millions of trips to 80 countries - in a convenient search engine!",
+      "motto": "Take legendary tours with AFSONA TOUR",
+      "ordercallbtn": "Order a tour"
+    },
+    "tourtypes": {
+      "sectionName": "Hot tours",
+      "epigraph": "Our best offers",
+      "bustour": "Bus tour",
+      "skitour": "Ski tour",
+      "Cruise": "Cruise",
+      "kidstour": "Kids tour",
+      "medicaltour": "Medical tour",
+      "seatour": "Sea tour",
+      "shoppingtour": "Shopping tour",
+      "excursiontour": "Excursiontour tour"
+    },
+    "booktourform": {
+      "sectionName": "Book your tour",
+      "category": {
+        "label": "Travel category",
+        "options": {
+          "classic": "Classic",
+          "cruise": "Cruise",
+          "shopping": "Shopping",
+          "excursion": "Excursion",
+          "religious": "Religious",
+          "gastronomic": "Gastronomic"
+        }
+      },
+      "type": {
+        "label": "Travel type",
+        "options": {
+          "family": "Family",
+          "group": "Group",
+          "individual": "Individual"
+        }
+      },
+      "price": {
+        "pricefrom": "Price from*",
+        "priceupto": "Up to*",
+        "from": "From*"
+      },
+      "date": {
+        "datefrom": "Date from*",
+        "dateuntil": "Date until*"
+      },
+      "amoutofpeople": "Amout of people",
+      "yourfullname": "Your full name",
+      "contact": "Contact(Phone or email)",
+      "booktourbtn": "Book a tour"
+    },
+    "tourlist": {
+      "currency": "UZS",
+      "price": "Price",
+      "cities": {
+        "burjKhalifa": "Burj Khalifa, Dubai",
+        "sharmelsheikh": "Sharm El-Sheikh, Egypt",
+        "kualalumpur": "Kuala Lumpur, Malaysia",
+        "paris": "Paris",
+        "langkawi": "Langkawi, Malaysia",
+        "istanbul": "İstanbul, Turkey",
+        "penang": "Penang, Mayalsia",
+        "marina": "Dubai Marina",
+        "safari": "Safari, Dubai",
+        "thailand": "Thailand",
+        "georgia": "Georgia",
+        "Vietnam": "Vietnam"
+      },
+      "text1": "Prepare for a vacation with us - millions of trips to 80 countries are available in a convenient search engine. Easily find the right type, pay in minutes. And our super service means you don't have to worry about anything while on vacation.",
+      "text2": "Want to get your feelings back? Then you should travel with us! We know what you need, we know what places you will visit and be amazed."
+    },
+    "aboutus": {
+      "sectionName": "About us",
+      "heading": "About our company",
+      "headingtext": "Travel to any country with \"AFSONA TOUR\" and win prizes and excursions through our bonus system. We are happy to serve you",
+      "pricingpolicy": "Flexible pricing policy",
+      "pricingpolicycontent": "With AFSONA TOUR, you can travel around the world at the most affordable prices, paying in installments and even for free.",
+      "alldaywork": "24/7 reception",
+      "alldayworkcontent": "Order a call at any time, we will contact you shortly"
+    }
+  },
+  "AboutPage": {
+    "main": "Home",
+    "title": "About our company",
+    "text1": "Hello, Thank you for choosing AFSONA TOUR.",
+    "text2": "With AFSONA TOUR, you can travel around the world at the most affordable prices, paying in installments and even for free.",
+    "text3": "Every month we give away gifts for our most active followers on our social networks.",
+    "text4": "In addition, you can get bonuses for your next trip by telling your friends about your trip with AFSONA TOUR."
+  },
+  "ContactsPage": {
+    "main": "Home",
+    "title": "Contacts",
+    "address": "Namangan, Jumashuy city, Ozodlik street",
+    "workingtime": "Monday-Saturday from 11:00 to 21:00",
+    "dayoff": "Dayoff: Sunday",
+    "route": "Take a route"
+  },
+  "RegisterPage": {
+    "main": "Home",
+    "title": "Registration",
+    "message": "You will be able to register soon!",
+    "redirectto": "Contacts",
+    "redirectmsg": "- Visit page to contact with us"
+  },
+  "SearchPage": {
+    "main": "Home",
+    "title": "Search",
+    "buttontitle": "Search",
+    "loadingmsg": "Search in progress...",
+    "results": "Results",
+    "notfound": "No information found",
+    "foundmsg": "Results matching your search were found on these pages:"
+  },
+  "NotFoundPage":{
+    "main": "Home",
+    "title": "Page could not be found"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, uz {🇺🇿 UZ} ru {🇷🇺 RU} en {🇺🇸 EN}  other {Unknown}}"
+  }
+}

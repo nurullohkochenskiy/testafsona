@@ -1,0 +1,37 @@
+{
+  "name": "afsona",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.2",
+    "animate.css": "^4.1.1",
+    "gsap": "^3.12.5",
+    "next": "14.2.13",
+    "next-intl": "^3.20.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-scroll": "^1.9.0",
+    "sass": "^1.79.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
+    "@yandex/ymaps3-types": "^0.0.28",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

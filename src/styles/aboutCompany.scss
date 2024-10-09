@@ -1,0 +1,19 @@
+@media (max-width: 991px) {
+  .about_section {
+    align-items: center;
+  }
+  h1 {
+    font-size: 35px !important;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 26px !important;
+  }
+  p{
+    font-size: 16px !important;
+  }
+  h3{
+    font-size: 22px !important;
+  }
+}

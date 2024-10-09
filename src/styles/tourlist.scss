@@ -1,0 +1,96 @@
+.tourlist {
+  background-image: linear-gradient(
+      to right,
+      rgba(246, 246, 246, 0) 40%,
+      #23bfef 40%,
+      #23bfef 60%,
+      rgba(246, 246, 246, 0) 60%
+    ),
+    url("../../public/images/cloud2.png");
+
+  background-size: auto auto;
+  // background-position: left 0px top 0px, left calc(-5px + 50%) top -55px;
+  background-color: rgba(234, 234, 241, 1);
+}
+
+.tour-list {
+  .item-container {
+    cursor: pointer;
+
+    .tour-items {
+      background-color: white;
+      transition: ease all 0.3s;
+    }
+    .tour-items:hover {
+      background-color: rgba(32, 36, 44, 1);
+      color: rgb(255 255 255 / 1) /* #ffffff */;
+    }
+  }
+}
+@media (max-width: 479px) {
+  .tour-list {
+    .item-container {
+      width: 100%;
+      .tour-items {
+        border-radius: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .tourlist {
+    padding-top: 60px;
+    background-image: linear-gradient(
+        to right,
+        rgba(246, 246, 246, 0) 20%,
+        #23bfef 20%,
+        #23bfef 80%,
+        rgba(246, 246, 246, 0) 80%
+      ),
+      url("../../public/images/cloud2.png");
+  }
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  .tour-list {
+    .item-container {
+      width: 50%;
+      .tour-items {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+    .tour-list {
+        .item-container {
+          width: 33.333333333333336%;
+          .tour-items {
+            margin-top: 7px;
+            margin-bottom: 7px;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            border-radius: 20px;
+          }
+        }
+      }
+}

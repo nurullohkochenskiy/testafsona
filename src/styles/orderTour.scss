@@ -1,0 +1,139 @@
+.order_tour_wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(35, 191, 239, 1) 40%,
+    rgba(35, 191, 239, 1) 60%,
+    rgba(0, 0, 0, 0) 60%
+  );
+}
+.order_tour_bg {
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(32, 36, 44, 0.75) 0%,
+      rgba(32, 36, 44, 0.75) 100%
+    ),
+    url("../../public/images/stambul.webp");
+  background-position: left 0px top 0px, center center;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+.order_tour {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  //   max-width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.text_form {
+  padding-bottom: 5px;
+  font-weight: 700;
+  color: white;
+  font-size: 2.5vw;
+}
+.order_input {
+  display: inline-flex;
+}
+
+@media (max-width: 479px) {
+  .order_tour_bg {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .order_tour_bg {
+    text_form-align: center;
+  }
+  .text_form {
+    font-size: 26px;
+  }
+  .order_input {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .phone {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  input {
+    width: 100%;
+  }
+  .submit {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 991px) {
+  .order_tour_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(35, 191, 239, 1) 20%,
+      rgba(35, 191, 239, 1) 80%,
+      rgba(0, 0, 0, 0) 80%
+    );
+    .order_tour_bg {
+      .order_tour {
+        width: 100%;
+      }
+    }
+    .text_form {
+      margin-bottom: 30px;
+    }
+    .order_input {
+      padding-top: 0px;
+    }
+  }
+  .order_tour_bg {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .name {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  .phone {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  input {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .order_tour_bg {
+    margin-top: 0px;
+    padding-bottom: 40px;
+  }
+}

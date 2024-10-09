@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  scroll-behavior: sm;
+}
+.cta_clouds {
+  padding-bottom: 50px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 40%,
+      #23bfef 40%,
+      #23bfef 60%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    url("../../../public/images/cloud.png"),
+    linear-gradient(rgba(0, 0, 0, 0) 84%, rgba(255, 255, 255, 1) 100%);
+  background-repeat: no-repeat no-repeat no-repeat;
+  // background-position: auto, left calc(-1px + 50%) bottom -61px, auto;
+}
+
+@media (max-width: 991px) {
+  .cta_clouds {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 20%,
+        #23bfef 20%,
+        #23bfef 80%,
+        rgba(255, 255, 255, 0) 80%
+      ),
+      url("../../../public/images/cloud.png"),
+      linear-gradient(rgba(0, 0, 0, 0) 84%, rgba(255, 255, 255, 1) 100%);
+  }
+}
+
+// Tourlist
+/* Hide scrollbars for Chrome, Safari, and Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media (max-width: 991px) {
+  .animate__animated {
+    animation: none !important;
+  }
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 1.5s;
+}

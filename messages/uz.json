@@ -1,0 +1,168 @@
+{
+  "Layout": {
+    "header": {
+      "navbar": {
+        "mainpage": "Asosiy sahifa",
+        "aboutpage": "Kompaniya haqida",
+        "paymentMethods": "To'lov usullari",
+        "contacts": "Kontaktlar",
+        "login": "Kirish",
+        "search": "Saytdan qidiruv"
+      }
+    },
+    "forehead": {
+      "description": "Turistik agentligi",
+      "ordercallbtn": "Biz bilan bog'laning"
+    },
+    "ordercallsection": {
+      "sectionName": "Biz eng maqbul yechimni topamiz",
+      "heading": "Biz bilan bog'laning",
+      "yourname": "Ismingiz",
+      "yournumber": "Telefon raqamingiz",
+      "sendbtn": "Yuborish"
+    },
+    "paymentmethods": {
+      "sectionName": "To'lov usullari",
+      "heading": "Biz ushbu to'lov usullarini qabul qilamiz"
+    },
+    "footer": {
+      "contactus": "Biz bilan bog'laning",
+      "ourlocation": "Bizning Manzilimiz:",
+      "location": "Namangan vil, Jo'masho'y sh, Ozodlik ko'chasi",
+      "openinmaps": "Xaritadan ko'rish"
+    },
+    "ordercallmodal": {
+      "heading": "Biz bilan bog'laning",
+      "yourname": "Ismingiz",
+      "yournumber": "Telefon raqamingiz",
+      "sendbtn": "Buyurtma qilish"
+    },
+    "notification":{
+      "sentSuccessfully":"Muvaffaqiyatli, tez orada aloqaga chiqamiz!",
+      "sentFailed":"Xabarni yuborib bo'lmadi, yana bir bor urunib ko'ring"
+    }
+  },
+  "HomePage": {
+    "cta": {
+      "heading": "Biz orqali dam olishga tayorgarlik - juda ham oson! 80 davlatga milionlab sayohatlar - qulay qidiruv tizimida!",
+      "motto": "AFSONA TOUR bilan afsonaviy sayohatlar qiling",
+      "ordercallbtn": "Buyurtma qilish"
+    },
+    "tourtypes": {
+      "sectionName": "Qaynoq sayohatlar",
+      "epigraph": "Bizning eng yaxshi takliflarimiz",
+      "bustour": "AVTOBUS TURLARI",
+      "skitour": "CHANG'I TURLARI",
+      "Cruise": "Kruislar",
+      "kidstour": "BOLALAR UCHUN SAYOHAT",
+      "medicaltour": "TIBBIY SAYOHAT",
+      "seatour": "DENGIZDA SAYOHAT",
+      "shoppingtour": "SHOPPING TURLAR",
+      "excursiontour": "EKSKURSIYA SAYOHATI"
+    },
+    "booktourform": {
+      "sectionName": "Sayohatingizni bron qiling",
+      "category": {
+        "label": "Sayohat kategoriyasi",
+        "options": {
+          "classic": "Klassik",
+          "cruise": "Kruis",
+          "shopping": "Shopping",
+          "excursion": "Eskkursiya",
+          "religious": "Diniy",
+          "gastronomic": "Gastronomik"
+        }
+      },
+      "type": {
+        "label": "Sayohat turi",
+        "options": {
+          "family": "Oilaviy",
+          "group": "Guruh bilan",
+          "individual": "Individual"
+        }
+      },
+      "price": {
+        "pricefrom": "Narx *dan",
+        "priceupto": "Narx *gacha",
+        "from": "*dan"
+      },
+      "date": {
+        "datefrom": "Sana *dan",
+        "dateuntil": "Sana *gacha"
+      },
+      "amoutofpeople": "Odamlar soni",
+      "yourfullname": "To'liq ismingiz",
+      "contact": "Kontakt(Telefon yoki Email)",
+      "booktourbtn": "Bron qilish"
+    },
+    "tourlist": {
+      "currency": "so'm",
+      "price": "Narxi",
+      "cities": {
+        "burjKhalifa": "Burj halifa, Dubay",
+        "sharmelsheikh": "Sharm el sheyh, Misr",
+        "kualalumpur": "Kuala Lumpur, Malaysia",
+        "paris": "Parij",
+        "langkawi": "Lankawi, Malayziya",
+        "istanbul": "Istambul, Turkiya",
+        "penang": "Penang, Malayziya",
+        "marina": "Dubay Marina",
+        "safari": "Safari, Dubay",
+        "thailand": "Tayland",
+        "georgia": "Gruziya",
+        "Vietnam": "Vietnam"
+      },
+      "text1": "Biz bilan ta'tilga tayyorgarlik ko'rish - 80 ta mamlakatga millionlab sayohatlar qulay qidiruv tizimida mavjud. Osonlik bilan mos turni toping, bir necha daqiqada to'lang. Bizning super xizmatimiz esa ta'tilga chiqayotganda hech narsa haqida qayg'urmaslik imkonini beradi.",
+      "text2": "O'z hislaringizni qaytarishni xohlaysizmi? Unda siz biz bilan sayohat qilishingiz kerak! Biz sizga nima kerakligini bilamiz, qaysi joylarga tashrif buyurishingizni va hayratda qolishingizni bilamiz."
+    },
+    "aboutus": {
+      "sectionName": "Biz haqimizda",
+      "heading": "Kompaniya haqida",
+      "headingtext": "\"AFSONA TOUR\" bilan istalgan mamlakatga sayohat qiling va bonusli tizimimiz orqali sovg'alar va ekskursiyalar yutib oling. Biz sizga xizmat ko'rsatishdan mamnunmiz",
+      "pricingpolicy": "Moslashuvchan narx siyosati",
+      "pricingpolicycontent": "AFSONA TOUR bilan dunyo bo'ylab eng qulay narxlarda, bo'lib to'lash va hattoki tekinga ham sayohat qilishingiz mumkin.",
+      "alldaywork": "24/7 arizalarni qabul qilish",
+      "alldayworkcontent": "Istalgan vaqtda arizangizni qoldiring, qisqa vaqtda aloqaga chiqamiz"
+    }
+  },
+  "AboutPage": {
+    "main": "Asosiy",
+    "title": "Kompaniya haqida",
+    "text1": "Assalomu alaykum, AFSONA TOUR ni tanlaganingizdan minnatdormiz.",
+    "text2": "Siz AFSONA TOUR bilan dunyo bo'ylab eng qulay narxlarda, bo'lib to'lash va hattoki tekinga ham sayohat qilishingiz mumkin.",
+    "text3": "Ijtimoiy tarmoqlarimizdagi eng faol obunachilarimiz uchun har oy sovg'alar ajratamiz.",
+    "text4": "Bundan tashqari AFSONA TOUR bilan bo'lgan sayohatingiz haqida do'stlaringizga so'zlab berib keyingi sayohatingiz uchun bonuslar olishingiz mumkin."
+  },
+  "ContactsPage": {
+    "main": "Asosiy",
+    "title": "Kontaktlar",
+    "address": "Namangan vil, Jo'masho'y sh, Ozodlik ko'chasi",
+    "workingtime": "Du-Sh 11:00 dan 21:00 gacha",
+    "dayoff": "Yakshanba- dam olish kuni",
+    "route": "Marshrut olish"
+  },
+  "RegisterPage": {
+    "main": "Asosiy",
+    "title": "Ro'yxatdan o'tish",
+    "message": "Tez orada ro'yxatdan o'tishingiz mumkin bo'ladi!",
+    "redirectto": "Kontaktlar",
+    "redirectmsg": "bo'limiga o'tib biz bilan bog'lanishingiz mumkin"
+  },
+  "SearchPage": {
+    "main": "Asosiy",
+    "title": "Saytdan qidiruv",
+    "buttontitle": "Qidirish",
+    "loadingmsg": "Yuklanmoqda...",
+    "results": "Qidiruv natijalari",
+    "notfound": "Ma'lumot topilmadi",
+    "foundmsg": "Ushbu sahifalardan qidiruvingizga mos natijalar topildi:"
+  },
+  "NotFoundPage":{
+    "main": "Asosiy",
+    "title": "Sahifa topilmadi"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, uz {UZ} ru {RU} en {EN}  other {Unknown}}"
+  }
+}

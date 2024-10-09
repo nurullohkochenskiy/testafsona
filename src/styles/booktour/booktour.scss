@@ -1,0 +1,50 @@
+
+@media (max-width: 991px) {
+    
+    .booktour_form{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .upper_side{
+        flex-direction: column;
+        .typeof_tour{
+            width: 100%;
+        }
+        .price_date{
+            width: 100%;
+        }
+    }
+    .bottom_side{
+        flex-direction: column;
+        align-items: start;
+        .people_contacts{
+            width: 100%;
+        }
+        .submit_btn{
+            margin-top: 20px;
+            width: 29%;
+            height: 65px;
+        }
+    }
+}
+@media (max-width:767px) {
+    .price_date{
+        flex-direction: column;
+        .price{
+            width: 100%;
+        }
+        .date{
+            width: 100%;
+        }
+    }
+    .people_contacts{
+        flex-direction: column;
+        .people_contacts_item{
+            width: 100%;
+        }
+    }
+    .submit_btn{
+        width: 100% !important;
+
+    }
+}
