@@ -1,5 +1,4 @@
 import React from "react";
-import { useRouter } from "next/navigation";
 import "../../styles/footer/footerContacts.scss";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";

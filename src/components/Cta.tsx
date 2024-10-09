@@ -11,7 +11,7 @@ interface CtaProps {
 }
 const Cta: React.FC<CtaProps> = ({ setIsModalOpen }) => {
   const [backgroundImage, setBackgroundImage] = useState(greatWall);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  // const [isTransitioning, setIsTransitioning] = useState(false);
  
   let startX: number, startY: number, endX: number, endY: number;
 
@@ -79,9 +79,7 @@ const t= useTranslations("HomePage.cta")
             left: 0,
             width: "100%",
             height: "100%",
-            backgroundColor: isTransitioning
-              ? "rgba(255, 255, 255, 0.8)"
-              : "rgba(32, 36, 44, 0.31)",
+            backgroundColor: "rgba(32, 36, 44, 0.31)",
             transition: "background-color 0.6s ease",
             zIndex: 1,
           }}

@@ -16,9 +16,9 @@ const SearchComponent: React.FC<SearchComponentProps> = ({ term }) => {
     { url: string; title: string; content: string }[]
   >([]);
   const [isLoading, setIsLoading] = useState(true); // Add loading state
-  const HandleSeach = (e: any) => {
-    e.preventDefault();
-  };
+  // const HandleSeach = (e: any) => {
+  //   e.preventDefault();
+  // };
   useEffect(() => {
     if (term) {
       const searchTerm = term.toLowerCase();
@@ -50,7 +50,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({ term }) => {
           {t("title")}
         </h1>
         <div className="py-[12px]  font-normal text-lg leading-[1.6]">
-          <form onSubmit={HandleSeach} className="flex flex-row gap-2 ">
+          <form  className="flex flex-row gap-2 ">
             <div className="flex ">
               <input
                 className="border rounded-[4px] px-2 py-1"

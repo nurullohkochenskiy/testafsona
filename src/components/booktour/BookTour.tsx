@@ -78,7 +78,7 @@ const BookTour = () => {
       setFullName("");
       setContact("");
     } catch (error) {
-      // console.error("Error sending message:", error);
+      console.log("Error sending message:", error);
       setNotification(notificationT("sentFailed"));
     }
   };

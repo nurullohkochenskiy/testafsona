@@ -40,7 +40,7 @@ const OrderTour = () => {
         setNotification(null);
       }, 2000); // Clear notification after 2 seconds
     } catch (error) {
-      // console.error("Error sending message:", error);
+      console.log("Error sending message:", error);
       setNotification(t("notification.sentFailed")); // Replace alert with notification
     }
   };
