@@ -4,9 +4,7 @@ import Header from "@/components/Header/Header";
 import OrderTour from "@/components/main/order/OrderTour";
 import OrderModal from "@/components/OrderModal";
 import { useState } from "react";
-import Contacts from "@/components/contacts/Contacts";
 import PaymentMethodsCarousel from "@/components/PaymentMethodsCarousel";
-import RegisterComponent from "@/components/register/RegisterComponent";
 import FooterContacts from "@/components/footer/FooterContacts";
 import NotFoundComponent from "@/components/notfound/NotFoundComponent";
 const NotFound = () => {
@@ -27,7 +25,7 @@ const NotFound = () => {
           backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat",
         }}
       >
-        <Header isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        <Header setIsModalOpen={setIsModalOpen} />
         <NotFoundComponent />
       </div>
       <OrderTour />

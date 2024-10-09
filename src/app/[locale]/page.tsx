@@ -31,7 +31,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat",
         }}
       >
-        <Header isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        <Header setIsModalOpen={setIsModalOpen} />
         <Cta isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
         <TourList />
         <BookTour />

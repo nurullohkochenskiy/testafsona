@@ -7,10 +7,9 @@ import cloudsUp from "../../../public/images/cloud2.png";
 import "../../styles/header.scss";
 
 interface HeaderProps {
-  isModalOpen: boolean;
   setIsModalOpen: (isOpen: boolean) => void;
 }
-const Header: React.FC<HeaderProps> = ({ isModalOpen, setIsModalOpen }) => {
+const Header: React.FC<HeaderProps> = ({  setIsModalOpen }) => {
   return (
     <>
       <div
@@ -26,7 +25,6 @@ const Header: React.FC<HeaderProps> = ({ isModalOpen, setIsModalOpen }) => {
             <Navbar />
             <NavbarBig />
             <Forehead
-              isModalOpen={isModalOpen}
               setIsModalOpen={setIsModalOpen}
             />
           </div>

@@ -12,7 +12,7 @@ interface SearchProps {
     term: string;
   };
 }
-const page: React.FC<SearchProps> = ({params}) => {
+const Page: React.FC<SearchProps> = ({params}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
@@ -30,7 +30,7 @@ const page: React.FC<SearchProps> = ({params}) => {
           backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat",
         }}
       >
-        <Header isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        <Header  setIsModalOpen={setIsModalOpen} />
        <SearchComponent term = {params.term}/>
       </div>
       <OrderTour />
@@ -40,4 +40,4 @@ const page: React.FC<SearchProps> = ({params}) => {
   );
 };
 
-export default page;
+export default Page;

@@ -4,11 +4,10 @@ import Header from "@/components/Header/Header";
 import OrderTour from "@/components/main/order/OrderTour";
 import OrderModal from "@/components/OrderModal";
 import { useState } from "react";
-import Contacts from "@/components/contacts/Contacts";
 import PaymentMethodsCarousel from "@/components/PaymentMethodsCarousel";
 import RegisterComponent from "@/components/register/RegisterComponent";
 import FooterContacts from "@/components/footer/FooterContacts";
-const page = () => {
+const Fage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
@@ -26,7 +25,7 @@ const page = () => {
           backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat",
         }}
       >
-        <Header isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        <Header setIsModalOpen={setIsModalOpen} />
         <RegisterComponent/>
       </div>
       <OrderTour />
@@ -36,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Fage;

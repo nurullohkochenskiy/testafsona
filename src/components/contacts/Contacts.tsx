@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import "../../styles/contacts.scss";
 import { useRouter } from "next/navigation";
-import YandexMapComponent from "./YandexMapComponent";
+// import YandexMapComponent from "./YandexMapComponent";
 import telegramIcon from "../../../public/images/telegram_rounded.svg";
 import instagramIcon from "../../../public/images/instagram_logo.png";
 import GoogleMapComponent from "./GoogleMapComponent";

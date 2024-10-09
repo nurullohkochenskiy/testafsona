@@ -12,6 +12,7 @@ interface CtaProps {
 const Cta: React.FC<CtaProps> = ({ setIsModalOpen }) => {
   const [backgroundImage, setBackgroundImage] = useState(greatWall);
   const [isTransitioning, setIsTransitioning] = useState(false);
+ 
   let startX: number, startY: number, endX: number, endY: number;
 
   const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
@@ -36,16 +37,16 @@ const Cta: React.FC<CtaProps> = ({ setIsModalOpen }) => {
       setBackgroundImage((prev) => (prev === greatWall ? parisPic : greatWall));
     }
   };
-  const changeToChina = () => {
-    if (backgroundImage !== greatWall) {
-      setBackgroundImage(greatWall);
-    }
-  };
-  const changeToParis = () => {
-    if (backgroundImage !== parisPic) {
-      setBackgroundImage(parisPic);
-    }
-  };
+  // const changeToChina = () => {
+  //   if (backgroundImage !== greatWall) {
+  //     setBackgroundImage(greatWall);
+  //   }
+  // };
+  // const changeToParis = () => {
+  //   if (backgroundImage !== parisPic) {
+  //     setBackgroundImage(parisPic);
+  //   }
+  // };
   const swapBg = () => {
     if (backgroundImage === greatWall) {
       setBackgroundImage(parisPic);

@@ -7,7 +7,7 @@ import { useState } from "react";
 import Contacts from "@/components/contacts/Contacts";
 import PaymentMethodsCarousel from "@/components/PaymentMethodsCarousel";
 import FooterContacts from "@/components/footer/FooterContacts";
-const page = () => {
+const Page = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
@@ -25,7 +25,7 @@ const page = () => {
           backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat",
         }}
       >
-        <Header isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        <Header  setIsModalOpen={setIsModalOpen} />
         <Contacts />
       </div>
       <OrderTour />
@@ -35,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

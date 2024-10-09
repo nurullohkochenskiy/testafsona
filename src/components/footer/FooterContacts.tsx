@@ -4,7 +4,7 @@ import "../../styles/footer/footerContacts.scss";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 const FooterContacts = () => {
-  const router = useRouter();
+ 
   const t = useTranslations("Layout.footer");
   return (
     <div className="flex footer_contacts_wrapper py-[4%] px-[5%] text-white justify-between">

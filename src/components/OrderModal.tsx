@@ -50,7 +50,8 @@ const OrderModal: React.FC<OrderModalProps> = ({
         setIsModalOpen(false)
       }, 2000); // Close modal after 2 seconds
     } catch (error) {
-      // console.error("Error sending message:", error);
+      console.log(error);
+      
       setNotification(t("notification.sentFailed")); // Replace alert with notification
     }
   };

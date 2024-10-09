@@ -5,10 +5,9 @@ import "../../styles/forehead.scss";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 interface ForeheadProps {
-  isModalOpen: boolean;
   setIsModalOpen: (isOpen: boolean) => void;
 }
-const Forehead: React.FC<ForeheadProps> = ({ isModalOpen, setIsModalOpen }) => {
+const Forehead: React.FC<ForeheadProps> = ({  setIsModalOpen }) => {
   const t = useTranslations("Layout.forehead");
   return (
     <div className="forehead flex flex-col md:flex-row md:justify-between justify-center items-center text-white w-full px-[40px] md:px-[5%] pb-[30px] pt-[50px] [@media(min-width:480px)]:pt-[30px] [@media(min-width:480px)]:pb-[40px]">

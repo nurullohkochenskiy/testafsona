@@ -1,6 +1,6 @@
 import React, { useTransition } from "react";
 import { useLocale } from "next-intl";
-import { Locale, usePathname, useRouter, routing } from "@/i18n/routing";
+import { Locale, usePathname, useRouter } from "@/i18n/routing";
 import clsx from "clsx";
 import Image from "next/image";
 import uzbFlag from "../../../../public/images/uzbekistanflag.png";
@@ -28,31 +28,32 @@ const LocaleSwitcher = () => {
           key={cur}
           className={clsx(
             "border px-1 rounded hover:border-[rgb(35,191,239)]",
-            locale === cur && "active-locale" // Add the active class to the current locale
+            locale === cur && "active-locale",
+            isPending && "disabled" // Optionally add a disabled class
           )}
-          onClick={() => handleLocaleChange(cur)}
+          onClick={() => !isPending && handleLocaleChange(cur)} // Prevent clicks while pending
         >
           {cur === "uz" ? (
             <span className="flex items-center gap-[2px]">
               <div className=" h-[12px]">
-                <Image src={uzbFlag}  alt="UzbFlag" style={{ height: '12px', width: 'auto' }} />
+                <Image src={uzbFlag} alt="UzbFlag" style={{ height: '12px', width: 'auto' }} />
               </div>
               UZ
             </span>
           ) : cur === "ru" ? (
             <span className="flex items-center gap-[2px]">
-            <div className=" h-[12px]">
-              <Image src={rusFlag}  alt="RUSFlag" style={{ height: '12px', width: 'auto' }} />
-            </div>
-            RU
-          </span>
+              <div className=" h-[12px]">
+                <Image src={rusFlag} alt="RUSFlag" style={{ height: '12px', width: 'auto' }} />
+              </div>
+              RU
+            </span>
           ) : (
             <span className="flex items-center gap-[2px]">
-            <div className=" h-[12px]">
-              <Image src={usaFlag}  alt="usaFlag" style={{ height: '12px', width: 'auto' }} />
-            </div>
-            EN
-          </span>
+              <div className=" h-[12px]">
+                <Image src={usaFlag} alt="usaFlag" style={{ height: '12px', width: 'auto' }} />
+              </div>
+              EN
+            </span>
           )}
         </span>
       ))}

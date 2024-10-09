@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useState, useTransition } from "react";
 import clsx from "clsx";
-import { Locale, useRouter, usePathname, routing } from "@/i18n/routing";
+import { Locale, useRouter, usePathname } from "@/i18n/routing";
 import uzbFlag from "../../../../public/images/uzbekistanflag.png";
 import rusFlag from "../../../../public/images/russiaflag.png";
 import usaFlag from "../../../../public/images/usaflag.png";
