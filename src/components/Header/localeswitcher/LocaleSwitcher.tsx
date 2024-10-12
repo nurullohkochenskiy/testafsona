@@ -17,6 +17,9 @@ const LocaleSwitcher = () => {
     if (nextLocale !== locale) {
       startTransition(() => {
         router.replace(pathname, { locale: nextLocale });
+        if (pathname === "/contacts"){
+          window.location.reload();
+        }
       });
     }
   };

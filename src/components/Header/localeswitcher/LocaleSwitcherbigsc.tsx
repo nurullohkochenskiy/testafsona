@@ -26,6 +26,9 @@ const LocaleSwitcherbigsc = () => {
     const nextLocale = event.target.value as Locale;
     startTransition(() => {
       router.replace(pathname, { locale: nextLocale });
+      if (pathname === "/contacts"){
+        window.location.reload();
+      }
     });
     setIsDropdownOpen(false); // Close the dropdown after selection
   };

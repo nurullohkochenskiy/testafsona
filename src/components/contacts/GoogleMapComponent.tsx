@@ -13,9 +13,9 @@ const GoogleMapComponent = () => {
 
   useEffect(() => {
     const loadGoogleMapsScript = () => {
-      if (!document.querySelector(`script[src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZUgoIjDlwgVo3cuTWmAyl8HkIJoaioGc"]`)) {
+      if (!document.querySelector(`script[src="https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}"]`)) {
         const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAZUgoIjDlwgVo3cuTWmAyl8HkIJoaioGc`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`;
         script.async = true;
         script.defer = true;
         script.onload = () => {
