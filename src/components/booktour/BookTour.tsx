@@ -4,8 +4,8 @@ import "../../styles/booktour/booktour.scss"; // Ensure the correct path for you
 import { useTranslations } from "next-intl";
 
 const BookTour = () => {
-  const t = useTranslations("HomePage.booktourform")
-  const notificationT = useTranslations("Layout.notification")
+  const t = useTranslations("HomePage.booktourform");
+  const notificationT = useTranslations("Layout.notification");
   const tourTypes1 = [
     t("category.options.classic"),
     t("category.options.cruise"),
@@ -89,6 +89,7 @@ const BookTour = () => {
         {notification && <div className="notification">{notification}</div>}
         <div className="section_name flex justify-center">
           <Typography
+            variant="h6"
             gutterBottom
             className="bg-[#23bfef] px-[13px] py-[3px] rounded-[20px] text-white font-arsenal text-[16px]"
           >
@@ -203,7 +204,8 @@ const BookTour = () => {
           <div className="people_contacts flex w-[75%] justify-between">
             {/* Amount of People Input */}
             <TextField
-              className="people_contacts_item w-[32%]"
+              style={{ width: "32%" }}
+              className="people_contacts_item "
               label={t("amoutofpeople")}
               variant="outlined"
               fullWidth
@@ -216,7 +218,8 @@ const BookTour = () => {
 
             {/* Full Name Input */}
             <TextField
-              className="people_contacts_item w-[32%]"
+              style={{ width: "32%" }}
+              className="people_contacts_item"
               label={t("yourfullname")}
               variant="outlined"
               fullWidth
@@ -228,7 +231,8 @@ const BookTour = () => {
 
             {/* Contact Input */}
             <TextField
-              className="people_contacts_item w-[32%]"
+              style={{ width: "32%" }}
+              className="people_contacts_item"
               label={t("contact")}
               variant="outlined"
               fullWidth
