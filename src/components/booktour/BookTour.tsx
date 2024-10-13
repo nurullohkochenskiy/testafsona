@@ -89,7 +89,6 @@ const BookTour = () => {
         {notification && <div className="notification">{notification}</div>}
         <div className="section_name flex justify-center">
           <Typography
-            variant="h6"
             gutterBottom
             className="bg-[#23bfef] px-[13px] py-[3px] rounded-[20px] text-white font-arsenal text-[16px]"
           >
