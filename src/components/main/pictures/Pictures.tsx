@@ -79,8 +79,8 @@ const Pictures: React.FC<PicturesProps> = ({ setIsModalOpen }) => {
       <div className="pic_list">
         <div className="pic_cards_wrapper relative">
           {pics.map((place, i) => (
-            <div className="pic_card relative">
-              <div className="img_wrapper relative" key={i}>
+            <div key={i} className="pic_card relative">
+              <div className="img_wrapper relative">
                 <Image
                   alt={place.name}
                   src={place.src}
@@ -96,11 +96,19 @@ const Pictures: React.FC<PicturesProps> = ({ setIsModalOpen }) => {
                   {place.description}
                 </div>
                 <div className="price_info">
-                  <span className="font-bold text-green-500">$ </span>{t("price")}:{" "}
-                  <span className="price">{place.price} {t("currency")}</span>
+                  <span className="font-bold text-green-500">$ </span>
+                  {t("price")}:{" "}
+                  <span className="price">
+                    {place.price} {t("currency")}
+                  </span>
                 </div>
                 <div className="openform_btn_container ">
-                  <button onClick={()=>setIsModalOpen(true)} className="openform_btn ">{t("moredetailsbtn")}</button>
+                  <button
+                    onClick={() => setIsModalOpen(true)}
+                    className="openform_btn "
+                  >
+                    {t("moredetailsbtn")}
+                  </button>
                 </div>
               </div>
             </div>
@@ -108,12 +116,8 @@ const Pictures: React.FC<PicturesProps> = ({ setIsModalOpen }) => {
         </div>
       </div>
       <div className="invite-text">
-        <div className="text">
-         {t("text1")}
-        </div>
-        <div className="text">
-        {t("text2")}
-        </div>
+        <div className="text">{t("text1")}</div>
+        <div className="text">{t("text2")}</div>
       </div>
     </div>
   );
