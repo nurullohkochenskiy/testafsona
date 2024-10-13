@@ -1,7 +1,4 @@
-import { useRef } from "react";
 import Image from "next/image";
-import { gsap } from "gsap";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import dubai from "../../../../public/images/dubai.jpg";
 import egypt from "../../../../public/images/egypt.jpg";
 import kuala_lumpur from "../../../../public/images/kuala-lumpur.jpg";
@@ -11,16 +8,16 @@ import safari from "../../../../public/images/safari_dubai.jpg";
 import thailand from "../../../../public/images/thailand.jpg";
 import georgia from "../../../../public/images/georgia.jpg";
 import vietnam from "../../../../public/images/vietnam.avif";
+
 import "../../../styles/pictures.scss";
 import { useTranslations } from "next-intl";
-gsap.registerPlugin(ScrollToPlugin); // Register ScrollToPlugin
+
 interface PicturesProps {
   isModalOpen: boolean;
   setIsModalOpen: (isOpen: boolean) => void;
 }
 const Pictures: React.FC<PicturesProps> = ({ setIsModalOpen }) => {
   const t = useTranslations("HomePage.tourlist");
-  const carouselRef = useRef<HTMLDivElement>(null);
   const pics = [
     {
       src: dubai,
@@ -77,92 +74,48 @@ const Pictures: React.FC<PicturesProps> = ({ setIsModalOpen }) => {
       price: "10.000.000",
     },
   ];
-
-  const scrollCarousel = (direction: "left" | "right") => {
-    if (carouselRef.current) {
-      const carouselItem = carouselRef.current.querySelector(
-        ".carousel-item"
-      ) as Element | null;
-      if (carouselItem) {
-        const itemWidthPercentage = getComputedStyle(carouselItem).minWidth;
-        const scrollAmount =
-          carouselRef.current.offsetWidth *
-          (parseFloat(itemWidthPercentage) / 100);
-        const newScrollPosition =
-          direction === "right"
-            ? carouselRef.current.scrollLeft + scrollAmount
-            : carouselRef.current.scrollLeft - scrollAmount;
-
-        gsap.to(carouselRef.current, {
-          scrollTo: { x: newScrollPosition },
-          ease: "power1.inOut",
-          duration: 0.5,
-        });
-      }
-    }
-  };
-
   return (
-    <div
-      className="relative z-20 w-full py-8 bg-gray-100 px-[5%]"
-      style={{
-        backgroundImage:
-          "linear-gradient(to right, rgba(246, 246, 246, 0) 20%, #23bfef 20%, #23bfef 80%, rgba(246, 246, 246, 0) 80%)",
-      }}
-    >
-      <div className="relative overflow-hidden">
-        <div
-          className="flex overflow-x-scroll no-scrollbar snap-x snap-mandatory "
-          ref={carouselRef}
-        >
-          {pics.map((image, index) => (
-            <div className="carousel-item snap-start" key={index}>
-              <div className=" bg-white m-2">
-                <div className="relative h-48">
-                  <Image
-                    alt={image.name}
-                    src={image.src}
-                    fill
-                    style={{ objectFit: "cover" }}
-                  />
+    <div className="tourpics relative z-10 font-arsenal">
+      <div className="pic_list">
+        <div className="pic_cards_wrapper relative">
+          {pics.map((place, i) => (
+            <div className="pic_card relative">
+              <div className="img_wrapper relative" key={i}>
+                <Image
+                  alt={place.name}
+                  src={place.src}
+                  fill
+                  style={{ objectFit: "cover" }}
+                  sizes="(min-width:150px)"
+                />
+              </div>
+
+              <div className="info flex flex-col">
+                <div className="country font-bold ">{place.name}</div>
+                <div className="text_info text-slate-500 ">
+                  {place.description}
                 </div>
-                <div className="p-4">
-                  <h3 className="font-bold text-lg">{image.name}</h3>
-                  <p className="text-gray-500 mt-2  description">{image.description}</p>
-                  <p className="mt-4 font-semibold">
-                    <span className="text-green-500">$</span> {t("price")}:{" "}
-                    <span className="font-bold">
-                      {image.price} {t("currency")}
-                    </span>
-                  </p>
-                  <button
-                    onClick={() => setIsModalOpen(true)}
-                    className="mt-4 w-full bg-[#23bfef] text-white py-2 rounded-md hover:bg-blue-600"
-                  >
-                    Batafsil
-                  </button>
+                <div className="price_info">
+                  <span className="font-bold text-green-500">$ </span>{t("price")}:{" "}
+                  <span className="price">{place.price} {t("currency")}</span>
+                </div>
+                <div className="openform_btn_container ">
+                  <button onClick={()=>setIsModalOpen(true)} className="openform_btn ">{t("moredetailsbtn")}</button>
                 </div>
               </div>
             </div>
           ))}
         </div>
-
-        {/* Scroll Buttons */}
-        <button
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 border border-[#23bfef] p-2 rounded-full"
-          onClick={() => scrollCarousel("left")}
-        >
-          &#8592;
-        </button>
-        <button
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 border border-[#23bfef] p-2 rounded-full"
-          onClick={() => scrollCarousel("right")}
-        >
-          &#8594;
-        </button>
+      </div>
+      <div className="invite-text">
+        <div className="text">
+         {t("text1")}
+        </div>
+        <div className="text">
+        {t("text2")}
+        </div>
       </div>
     </div>
   );
 };
-
 export default Pictures;

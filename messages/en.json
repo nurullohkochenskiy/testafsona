@@ -98,7 +98,8 @@
     "tourlist": {
       "currency": "UZS",
       "price": "Price",
-     "cities": {
+      "moredetailsbtn": "More details",
+      "cities": {
         "burjKhalifa": {
           "name": "Burj Khalifa, Dubai",
           "desctiption": "UAE- Enjoy the beauty of the latest technology, modern city and tallest buildings"
@@ -181,7 +182,7 @@
     "notfound": "No information found",
     "foundmsg": "Results matching your search were found on these pages:"
   },
-  "NotFoundPage":{
+  "NotFoundPage": {
     "main": "Home",
     "title": "Page could not be found"
   },

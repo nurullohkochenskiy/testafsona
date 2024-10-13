@@ -2,191 +2,192 @@
   "Layout": {
     "header": {
       "navbar": {
-        "mainpage": "Главная",
-        "aboutpage": "О компании",
-        "paymentMethods": "Способы оплаты",
-        "contacts": "Контакты",
-        "login": "Вход",
-        "search": "Поиск по сайту"
+        "mainpage": "Asosiy sahifa",
+        "aboutpage": "Kompaniya haqida",
+        "paymentMethods": "To'lov usullari",
+        "contacts": "Kontaktlar",
+        "login": "Kirish",
+        "search": "Saytdan qidiruv"
       }
     },
     "forehead": {
-      "description": "ТУРИСТИЧЕСКОЕ АГЕНТСТВО",
-      "ordercallbtn": "Заказать звонок"
+      "description": "Turistik agentligi",
+      "ordercallbtn": "Biz bilan bog'laning"
     },
     "ordercallsection": {
-      "sectionName": "Находим наиболее оптимальный путь решения",
-      "heading": "Подобрать тур",
-      "yourname": "Ваше имя",
-      "yournumber": "Телефон",
-      "sendbtn": "Отправить"
+      "sectionName": "Biz eng maqbul yechimni topamiz",
+      "heading": "Biz bilan bog'laning",
+      "yourname": "Ismingiz",
+      "yournumber": "Telefon raqamingiz",
+      "sendbtn": "Yuborish"
     },
     "paymentmethods": {
-      "sectionName": "Способы оплаты",
-      "heading": "Мы принимаем эти способы оплаты"
+      "sectionName": "To'lov usullari",
+      "heading": "Biz ushbu to'lov usullarini qabul qilamiz"
     },
     "footer": {
-      "contactus": "Связаться с нами",
-      "ourlocation": "Наш офис:",
-      "location": "Наманган, Г Джумашуй, Озодлик ул",
-      "openinmaps": "Смотреть на карте"
+      "contactus": "Biz bilan bog'laning",
+      "ourlocation": "Bizning Manzilimiz:",
+      "location": "Namangan vil, Jo'masho'y sh, Ozodlik ko'chasi",
+      "openinmaps": "Xaritadan ko'rish"
     },
     "ordercallmodal": {
-      "heading": "Заказать",
-      "yourname": "Ваше имя",
-      "yournumber": "Телефон",
-      "sendbtn": "Отправить"
+      "heading": "Biz bilan bog'laning",
+      "yourname": "Ismingiz",
+      "yournumber": "Telefon raqamingiz",
+      "sendbtn": "Buyurtma qilish"
     },
     "notification": {
-      "sentSuccessfully": "Успешно, мы скоро свяжемся с вами!",
-      "sentFailed": "Не удалось отправить сообщение. Попробуйте еще раз."
+      "sentSuccessfully": "Muvaffaqiyatli, tez orada aloqaga chiqamiz!",
+      "sentFailed": "Xabarni yuborib bo'lmadi, yana bir bor urunib ko'ring"
     }
   },
   "HomePage": {
     "cta": {
-      "heading": "С нами подготовка к отпуску — сплошное удовольствие! Миллионы туров в 80 стран — в удобной системе поиска",
-      "motto": "Отправляйтесь в легендарные туры с AFSONA TOUR",
-      "ordercallbtn": "Заказать тур"
+      "heading": "Biz orqali dam olishga tayorgarlik - juda ham oson! 80 davlatga milionlab sayohatlar - qulay qidiruv tizimida!",
+      "motto": "AFSONA TOUR bilan afsonaviy sayohatlar qiling",
+      "ordercallbtn": "Buyurtma qilish"
     },
     "tourtypes": {
-      "sectionName": "Горячие туры",
-      "epigraph": "Наши лучшие предложения",
-      "bustour": "АВТОБУСНЫЕ ТУРЫ",
-      "skitour": "ГОРНОЛЫЖНЫЕ ТУРЫ",
-      "Cruise": "КРУИЗЫ",
-      "kidstour": "ДЕТСКИЙ ОТДЫХ",
-      "medicaltour": "ЛЕЧЕБНЫЕ ТУРЫ",
-      "seatour": "ОТДЫХ НА МОРЕ",
-      "shoppingtour": "ШОП-ТУРЫ",
-      "excursiontour": "ЭКСКУРСИОННЫЕ ТУРЫ"
+      "sectionName": "Qaynoq sayohatlar",
+      "epigraph": "Bizning eng yaxshi takliflarimiz",
+      "bustour": "AVTOBUS TURLARI",
+      "skitour": "CHANG'I TURLARI",
+      "Cruise": "Kruislar",
+      "kidstour": "BOLALAR UCHUN SAYOHAT",
+      "medicaltour": "TIBBIY SAYOHAT",
+      "seatour": "DENGIZDA SAYOHAT",
+      "shoppingtour": "SHOPPING TURLAR",
+      "excursiontour": "EKSKURSIYA SAYOHATI"
     },
     "booktourform": {
-      "sectionName": "Забронируйте тур",
+      "sectionName": "Sayohatingizni bron qiling",
       "category": {
-        "label": "Категория путешествия",
+        "label": "Sayohat kategoriyasi",
         "options": {
-          "classic": "Классический",
-          "cruise": "Круиз",
-          "shopping": "Шоппинг",
-          "excursion": "Экскурсия",
-          "religious": "Религиозный",
-          "gastronomic": "Гастрономический"
+          "classic": "Klassik",
+          "cruise": "Kruis",
+          "shopping": "Shopping",
+          "excursion": "Eskkursiya",
+          "religious": "Diniy",
+          "gastronomic": "Gastronomik"
         }
       },
       "type": {
-        "label": "Тип путешествия",
+        "label": "Sayohat turi",
         "options": {
-          "family": "Семейный",
-          "group": "Групповой",
-          "individual": "Индивидуальный"
+          "family": "Oilaviy",
+          "group": "Guruh bilan",
+          "individual": "Individual"
         }
       },
       "price": {
-        "pricefrom": "Цена от*",
-        "priceupto": "До*",
-        "from": "От*"
+        "pricefrom": "Narx *dan",
+        "priceupto": "Narx *gacha",
+        "from": "*dan"
       },
       "date": {
-        "datefrom": "Дата от*",
-        "dateuntil": "Дата до*"
+        "datefrom": "Sana *dan",
+        "dateuntil": "Sana *gacha"
       },
-      "amoutofpeople": "Количество людей",
-      "yourfullname": "Ваше имя",
-      "contact": "Контакты (телефон или электронная почта)",
-      "booktourbtn": "Забронировать тур"
+      "amoutofpeople": "Odamlar soni",
+      "yourfullname": "To'liq ismingiz",
+      "contact": "Kontakt(Telefon yoki Email)",
+      "booktourbtn": "Bron qilish"
     },
     "tourlist": {
-      "currency": "сум",
-      "price": "Цена",
+      "currency": "so'm",
+      "price": "Narxi",
+      "moredetailsbtn": "Batafsil",
       "cities": {
         "burjKhalifa": {
-          "name": "Бурдж-Халифа, Дубай",
-          "desctiption": "ОАЭ — насладитесь красотой новейших технологий, современного города и самых высоких зданий"
+          "name": "Burj halifa, Dubay",
+          "desctiption": "BAA- Eng so'nggi texnologiyalar, zamonaviy shahar va eng baland binolar go'zalligidan bahramand bo'ling"
         },
         "sharmelsheikh": {
-          "name": "Шарм-эль-Шейх, Египет",
-          "desctiption": "Шарм-эль-Шейх - Незабываемые впечатления от пляжа, почувствуйте Красное море"
+          "name": "Sharm el sheyh, Misr",
+          "desctiption": "Sharm el sheikh - Unutilmas sohil taasurotlari, qizil dengiz taftini his eting"
         },
         "kualalumpur": {
-          "name": "Куала-Лумпур, Малайзия",
-          "desctiption": "Малайзия — насладитесь семейным отдыхом в условиях круглогодичного умеренного климата, сочетающего в себе первозданную природу и современную городскую жизнь."
+          "name": "Kuala Lumpur, Malaysia",
+          "desctiption": "Malayziya - Sof tabiat manzaralari va zamonaviy shahar uyg'unligi, yil bo'yi mo'tadil iqlim sharoitida oilaviy hordiq oling"
         },
         "paris": {
-          "name": "Париж",
-          "desctiption": "Почувствуйте очарование Парижа с его знаменитыми достопримечательностями, такими как Эйфелева башня и Лувр. Наслаждайтесь искусством, модой и едой, которые делают этот город обязательным для посещения местом."
+          "name": "Parij",
+          "desctiption": "Eyfel minorasi va Luvr kabi mashhur diqqatga sazovor joylar bilan Parijning jozibasini his eting. Ushbu shaharni ko'rish kerak bo'lgan joyga aylantiradigan san'at, moda va taomlardan bahramand bo'ling."
         },
         "istanbul": {
-          "name": "Стамбул, Турция",
-          "desctiption": "Турция - 10 000 видов растений и 80 000 видов животных составляют основу 35 видов биоразнообразия в мире. Турция также является прекрасным местом для любителей цветов"
+          "name": "Istambul, Turkiya",
+          "desctiption": "Turkiya - bu yerdagi 10 000 o’simlik va 80 000 hayvon turlari dunyodagi 35 bioxilma-xillikning asosini  tashkil qiladi. Turkiya — gullarni sevuvchilar uchun ham ajoyib joy"
         },
         "safari": {
-          "name": "Сафари, Дубай",
-          "desctiption": "Исследуйте Dubai Safari, где обитает множество диких животных со всего мира. Наслаждайтесь захватывающими сафари, приближайтесь к животным и оцените красоту природы в этом незабываемом приключении."
+          "name": "Safari, Dubay",
+          "desctiption": "Dunyoning turli yovvoyi tabiati yashaydigan Dubay Safari bilan tanishing. Ushbu unutilmas sarguzashtda hayajonli safarlardan rohatlaning, hayvonlarga yaqinlashing va tabiatning go'zalligini his qiling."
         },
         "thailand": {
-          "name": "Таиланд",
-          "desctiption": "Таиланд, страна в Юго-Восточной Азии, представляет собой прекрасное сочетание исторических традиций и современного изобилия. Известная своим широким спектром туристических впечатлений, потрясающей природной красотой и любезным гостеприимством, эта страна также имеет богатое культурное наследие."
+          "name": "Tayland",
+          "desctiption": "Janubi-Sharqiy Osiyo mamlakati Tailand tarixiy an'analar va zamonaviy jo'shqinlikning ajoyib uyg'unligidir. O'zining keng ko'lamli sayohat tajribasi, ajoyib tabiiy go'zalligi va xushmuomala mehmondo'stligi bilan mashhur bo'lgan bu mamlakat, shuningdek, boy madaniy merosga ega"
         },
         "georgia": {
-          "name": "Грузия",
-          "desctiption": "Горнолыжные курорты в горах Грузии, солнечные берега Черного моря и более двух тысяч бальнеологических курортов. Города Грузии наверняка оставят интересное впечатление у ценителей архитектуры и истории, с их старинными зданиями, музеями и галереями."
+          "name": "Gruziya",
+          "desctiption": "Gruziyadagi tog‘larda chang‘i kurortlari, qora dengizning quyoshli qirg‘oqlari va ikki mingdan ortiq balneologik kurortlar mavjud. Gruziya shaharlari esa me’morchilik va tarixni qadrlovchi odamlar uchun, qadimiy binolari, muzeylari va galereyalari bilan qiziqarli taasurotlar qoldirishi aniq"
         },
         "Vietnam": {
-          "name": "Вьетнам",
-          "desctiption": "Вьетнам - потрясающие цены и самое приятное - вам не нужна виза. Эта страна отличается шармом и самобытностью традиций, вам обязательно стоит туда съездить"
+          "name": "Vietnam",
+          "desctiption": "Vyetnam - hayron qolarli narxlar va eng muhimi sizga viza kerak emas. Bu mamlakat an'analar jozibasi va o'ziga xosligi bilan ajralib turadi albatta u yerga borishingiz kerak"
         }
       },
-      "text1": "С нами подготовка к отпуску — сплошное удовольствие Миллионы туров в 80 стран — в удобной системе поиска. Легко найди подходящий тур, оплати в считанные минуты. А наш суперсервис позволит ни о чём не беспокоиться, собираясь на отдых.",
-      "text2": "Хотите вернуть остроту чувств? Тогда Вам необходимо отправиться в путешествие!Путешествуйте с нами! Мы знаем что вам нужно, знаем какие места вы посетите и останетесь под впечатлением."
+      "text1": "Biz bilan ta'tilga tayyorgarlik ko'rish - 80 ta mamlakatga millionlab sayohatlar qulay qidiruv tizimida mavjud. Osonlik bilan mos turni toping, bir necha daqiqada to'lang. Bizning super xizmatimiz esa ta'tilga chiqayotganda hech narsa haqida qayg'urmaslik imkonini beradi.",
+      "text2": "O'z hislaringizni qaytarishni xohlaysizmi? Unda siz biz bilan sayohat qilishingiz kerak! Biz sizga nima kerakligini bilamiz, qaysi joylarga tashrif buyurishingizni va hayratda qolishingizni bilamiz."
     },
     "aboutus": {
-      "sectionName": "О нас",
-      "heading": "О компании",
-      "headingtext": "Путешествуйте в любую страну с \"AFSONA TOUR\" и выигрывайте призы и экскурсии через нашу бонусную систему. Мы рады вам помочь",
-      "pricingpolicy": "Гибкая ценовая политика",
-      "pricingpolicycontent": "С AFSONA TOUR вы можете путешествовать по всему миру по самым доступным ценам, оплачивая туры в рассрочку и даже бесплатно.",
-      "alldaywork": "Круглосуточный прием заявок",
-      "alldayworkcontent": "Закажите звонок в любое время, мы свяжемся с вами в ближайшее время"
+      "sectionName": "Biz haqimizda",
+      "heading": "Kompaniya haqida",
+      "headingtext": "\"AFSONA TOUR\" bilan istalgan mamlakatga sayohat qiling va bonusli tizimimiz orqali sovg'alar va ekskursiyalar yutib oling. Biz sizga xizmat ko'rsatishdan mamnunmiz",
+      "pricingpolicy": "Moslashuvchan narx siyosati",
+      "pricingpolicycontent": "AFSONA TOUR bilan dunyo bo'ylab eng qulay narxlarda, bo'lib to'lash va hattoki tekinga ham sayohat qilishingiz mumkin.",
+      "alldaywork": "24/7 arizalarni qabul qilish",
+      "alldayworkcontent": "Istalgan vaqtda arizangizni qoldiring, qisqa vaqtda aloqaga chiqamiz"
     }
   },
   "AboutPage": {
-    "main": "Главная",
-    "title": " О компании ",
-    "text1": "Здравствуйте! Спасибо, что выбрали AFSONA TOUR.",
-    "text2": "С AFSONA TOUR вы можете путешествовать по всему миру по самым доступным ценам, оплачивая туры в рассрочку и даже бесплатно.",
-    "text3": "Каждый месяц мы дарим подарки самым активным подписчикам в наших социальных сетях.",
-    "text4": "Кроме того, вы можете получить бонусы на следующую поездку, рассказав друзьям о своей поездке с AFSONA TOUR."
+    "main": "Asosiy",
+    "title": "Kompaniya haqida",
+    "text1": "Assalomu alaykum, AFSONA TOUR ni tanlaganingizdan minnatdormiz.",
+    "text2": "Siz AFSONA TOUR bilan dunyo bo'ylab eng qulay narxlarda, bo'lib to'lash va hattoki tekinga ham sayohat qilishingiz mumkin.",
+    "text3": "Ijtimoiy tarmoqlarimizdagi eng faol obunachilarimiz uchun har oy sovg'alar ajratamiz.",
+    "text4": "Bundan tashqari AFSONA TOUR bilan bo'lgan sayohatingiz haqida do'stlaringizga so'zlab berib keyingi sayohatingiz uchun bonuslar olishingiz mumkin."
   },
   "ContactsPage": {
-    "main": "Главная",
-    "title": "Контакты",
-    "address": "Наманган, Г Джумашуй, Озодлик ул",
-    "workingtime": "Пн—суббота с 11:00 до 21:00",
-    "dayoff": "Вс Выходной",
-    "route": "Выбрать маршрут"
+    "main": "Asosiy",
+    "title": "Kontaktlar",
+    "address": "Namangan vil, Jo'masho'y sh, Ozodlik ko'chasi",
+    "workingtime": "Du-Sh 11:00 dan 21:00 gacha",
+    "dayoff": "Yakshanba- dam olish kuni",
+    "route": "Marshrut olish"
   },
   "RegisterPage": {
-    "main": "Главная",
-    "title": "Регистрация",
-    "message": "Скоро вы сможете зарегистрироваться!",
-    "redirectto": "Контакты",
-    "redirectmsg": "- Посетите страницу, чтобы связаться с нами"
+    "main": "Asosiy",
+    "title": "Ro'yxatdan o'tish",
+    "message": "Tez orada ro'yxatdan o'tishingiz mumkin bo'ladi!",
+    "redirectto": "Kontaktlar",
+    "redirectmsg": "bo'limiga o'tib biz bilan bog'lanishingiz mumkin"
   },
   "SearchPage": {
-    "main": "Главная",
-    "title": "Поиск по сайту",
-    "buttontitle": "Поиск",
-    "loadingmsg": "Идёт поиск...",
-    "results": "Результаты",
-    "notfound": "Информация не найдена",
-    "foundmsg": "Результаты, соответствующие вашему поиску, были найдены на этих страницах:"
+    "main": "Asosiy",
+    "title": "Saytdan qidiruv",
+    "buttontitle": "Qidirish",
+    "loadingmsg": "Yuklanmoqda...",
+    "results": "Qidiruv natijalari",
+    "notfound": "Ma'lumot topilmadi",
+    "foundmsg": "Ushbu sahifalardan qidiruvingizga mos natijalar topildi:"
   },
   "NotFoundPage": {
-    "main": "Главная",
-    "title": "Страница не найдена"
+    "main": "Asosiy",
+    "title": "Sahifa topilmadi"
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, uz {🇺🇿 UZ} ru {🇷🇺 RU} en {🇺🇸 EN}  other {Unknown}}"
+    "locale": "{locale, select, uz {UZ} ru {RU} en {EN}  other {Unknown}}"
   }
 }
