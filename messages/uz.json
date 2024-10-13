@@ -37,9 +37,9 @@
       "yournumber": "Telefon raqamingiz",
       "sendbtn": "Buyurtma qilish"
     },
-    "notification":{
-      "sentSuccessfully":"Muvaffaqiyatli, tez orada aloqaga chiqamiz!",
-      "sentFailed":"Xabarni yuborib bo'lmadi, yana bir bor urunib ko'ring"
+    "notification": {
+      "sentSuccessfully": "Muvaffaqiyatli, tez orada aloqaga chiqamiz!",
+      "sentFailed": "Xabarni yuborib bo'lmadi, yana bir bor urunib ko'ring"
     }
   },
   "HomePage": {
@@ -99,18 +99,42 @@
       "currency": "so'm",
       "price": "Narxi",
       "cities": {
-        "burjKhalifa": "Burj halifa, Dubay",
-        "sharmelsheikh": "Sharm el sheyh, Misr",
-        "kualalumpur": "Kuala Lumpur, Malaysia",
-        "paris": "Parij",
-        "langkawi": "Lankawi, Malayziya",
-        "istanbul": "Istambul, Turkiya",
-        "penang": "Penang, Malayziya",
-        "marina": "Dubay Marina",
-        "safari": "Safari, Dubay",
-        "thailand": "Tayland",
-        "georgia": "Gruziya",
-        "Vietnam": "Vietnam"
+        "burjKhalifa": {
+          "name": "Burj halifa, Dubay",
+          "desctiption": "BAA- Eng so'nggi texnologiyalar, zamonaviy shahar va eng baland binolar go'zalligidan bahramand bo'ling"
+        },
+        "sharmelsheikh": {
+          "name": "Sharm el sheyh, Misr",
+          "desctiption": "Sharm el sheikh - Unutilmas sohil taasurotlari, qizil dengiz taftini his eting"
+        },
+        "kualalumpur": {
+          "name": "Kuala Lumpur, Malaysia",
+          "desctiption": "Malayziya - Sof tabiat manzaralari va zamonaviy shahar uyg'unligi, yil bo'yi mo'tadil iqlim sharoitida oilaviy hordiq oling"
+        },
+        "paris": {
+          "name": "Parij",
+          "desctiption": "Eyfel minorasi va Luvr kabi mashhur diqqatga sazovor joylar bilan Parijning jozibasini his eting. Ushbu shaharni ko'rish kerak bo'lgan joyga aylantiradigan san'at, moda va taomlardan bahramand bo'ling."
+        },
+        "istanbul": {
+          "name": "Istambul, Turkiya",
+          "desctiption": "Turkiya - bu yerdagi 10 000 o’simlik va 80 000 hayvon turlari dunyodagi 35 bioxilma-xillikning asosini  tashkil qiladi. Turkiya — gullarni sevuvchilar uchun ham ajoyib joy"
+        },
+        "safari": {
+          "name": "Safari, Dubay",
+          "desctiption": "Dunyoning turli yovvoyi tabiati yashaydigan Dubay Safari bilan tanishing. Ushbu unutilmas sarguzashtda hayajonli safarlardan rohatlaning, hayvonlarga yaqinlashing va tabiatning go'zalligini his qiling."
+        },
+        "thailand": {
+          "name": "Tayland",
+          "desctiption": "Janubi-Sharqiy Osiyo mamlakati Tailand tarixiy an'analar va zamonaviy jo'shqinlikning ajoyib uyg'unligidir. O'zining keng ko'lamli sayohat tajribasi, ajoyib tabiiy go'zalligi va xushmuomala mehmondo'stligi bilan mashhur bo'lgan bu mamlakat, shuningdek, boy madaniy merosga ega"
+        },
+        "georgia": {
+          "name": "Gruziya",
+          "desctiption": "Gruziyadagi tog‘larda chang‘i kurortlari, qora dengizning quyoshli qirg‘oqlari va ikki mingdan ortiq balneologik kurortlar mavjud. Gruziya shaharlari esa me’morchilik va tarixni qadrlovchi odamlar uchun, qadimiy binolari, muzeylari va galereyalari bilan qiziqarli taasurotlar qoldirishi aniq"
+        },
+        "Vietnam": {
+          "name": "Vietnam",
+          "desctiption": "Vyetnam - hayron qolarli narxlar va eng muhimi sizga viza kerak emas. Bu mamlakat an'analar jozibasi va o'ziga xosligi bilan ajralib turadi albatta u yerga borishingiz kerak"
+        }
       },
       "text1": "Biz bilan ta'tilga tayyorgarlik ko'rish - 80 ta mamlakatga millionlab sayohatlar qulay qidiruv tizimida mavjud. Osonlik bilan mos turni toping, bir necha daqiqada to'lang. Bizning super xizmatimiz esa ta'tilga chiqayotganda hech narsa haqida qayg'urmaslik imkonini beradi.",
       "text2": "O'z hislaringizni qaytarishni xohlaysizmi? Unda siz biz bilan sayohat qilishingiz kerak! Biz sizga nima kerakligini bilamiz, qaysi joylarga tashrif buyurishingizni va hayratda qolishingizni bilamiz."
@@ -157,7 +181,7 @@
     "notfound": "Ma'lumot topilmadi",
     "foundmsg": "Ushbu sahifalardan qidiruvingizga mos natijalar topildi:"
   },
-  "NotFoundPage":{
+  "NotFoundPage": {
     "main": "Asosiy",
     "title": "Sahifa topilmadi"
   },

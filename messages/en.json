@@ -98,19 +98,43 @@
     "tourlist": {
       "currency": "UZS",
       "price": "Price",
-      "cities": {
-        "burjKhalifa": "Burj Khalifa, Dubai",
-        "sharmelsheikh": "Sharm El-Sheikh, Egypt",
-        "kualalumpur": "Kuala Lumpur, Malaysia",
-        "paris": "Paris",
-        "langkawi": "Langkawi, Malaysia",
-        "istanbul": "İstanbul, Turkey",
-        "penang": "Penang, Mayalsia",
-        "marina": "Dubai Marina",
-        "safari": "Safari, Dubai",
-        "thailand": "Thailand",
-        "georgia": "Georgia",
-        "Vietnam": "Vietnam"
+     "cities": {
+        "burjKhalifa": {
+          "name": "Burj Khalifa, Dubai",
+          "desctiption": "UAE- Enjoy the beauty of the latest technology, modern city and tallest buildings"
+        },
+        "sharmelsheikh": {
+          "name": "Sharm El-Sheikh, Egypt",
+          "desctiption": "Sharm El Sheikh - Unforgettable beach impressions, feel the red sea"
+        },
+        "kualalumpur": {
+          "name": "Kuala Lumpur, Malaysia",
+          "desctiption": "Malaysia - Enjoy a family vacation in a year-round temperate climate, combining pure natural scenery and modern urban life"
+        },
+        "paris": {
+          "name": "Paris",
+          "desctiption": "Experience the charm of Paris, with famous sights like the Eiffel Tower and the Louvre. Enjoy the art, fashion, and food that make this city a must-see destination."
+        },
+        "istanbul": {
+          "name": "İstanbul, Turkey",
+          "desctiption": "Turkey - 10,000 plant and 80,000 animal species form the basis of 35 biodiversity in the world. Turkey is also a great place for flower lovers"
+        },
+        "safari": {
+          "name": "Safari, Dubai",
+          "desctiption": "Explore Dubai Safari, home to a wide variety of wildlife from around the world. Enjoy exciting safaris, get close to animals, and experience the beauty of nature in this unforgettable adventure."
+        },
+        "thailand": {
+          "name": "Thailand",
+          "desctiption": "Thailand, a country in Southeast Asia, is a wonderful blend of historical traditions and modern exuberance. Known for its wide range of travel experiences, stunning natural beauty and gracious hospitality, this country also has a rich cultural heritage."
+        },
+        "georgia": {
+          "name": "Georgia",
+          "desctiption": "There are ski resorts in the mountains of Georgia, sunny shores of the Black Sea and more than two thousand balneological resorts. Georgian cities are sure to leave an interesting impression on people who appreciate architecture and history, with their ancient buildings, museums and galleries."
+        },
+        "Vietnam": {
+          "name": "Vietnam",
+          "desctiption": "Vietnam - amazing prices and best of all you don't need a visa. This country is distinguished by the charm and uniqueness of traditions, you should definitely go there"
+        }
       },
       "text1": "Prepare for a vacation with us - millions of trips to 80 countries are available in a convenient search engine. Easily find the right type, pay in minutes. And our super service means you don't have to worry about anything while on vacation.",
       "text2": "Want to get your feelings back? Then you should travel with us! We know what you need, we know what places you will visit and be amazed."
