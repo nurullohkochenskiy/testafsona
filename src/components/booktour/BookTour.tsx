@@ -100,7 +100,8 @@ const BookTour = () => {
         <div className="upper_side flex justify-between mt-5">
           {/* Dropdown for Tour Type */}
           <TextField
-            className=" typeof_tour w-[24%] "
+          style={{ width: "24%" }}
+            className=" typeof_tour "
             select
             label={t("category.label")}
             variant="outlined"
@@ -118,7 +119,8 @@ const BookTour = () => {
           </TextField>
           {/* Dropdown for Tour Type 2 */}
           <TextField
-            className="typeof_tour w-[23%]"
+          style={{ width: "23%" }}
+            className="typeof_tour "
             select
             label={t("type.label")}
             variant="outlined"
