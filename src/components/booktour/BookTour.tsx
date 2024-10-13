@@ -91,7 +91,7 @@ const BookTour = () => {
           <Typography
             variant="h6"
             gutterBottom
-            className="bg-[#23bfef] px-[13px] py-[3px] rounded-[20px] text-white font-arsenal text-[16px]"
+            className="bg-[#23bfef] px-[13px] py-[3px] rounded-[20px] text-white !font-arsenal text-[16px]"
           >
             {t("sectionName")}
           </Typography>
@@ -246,11 +246,12 @@ const BookTour = () => {
           </div>
           {/* Submit Button */}
           <Button
-            className="submit_btn w-[23%] h-[56px] rounded-[250px]"
+            className="submit_btn w-[23%] h-[56px] "
             variant="contained"
             type="submit"
             sx={{
               backgroundColor: "#23bfef",
+              borderRadius: "250px",
               "&:hover": { backgroundColor: "#1a9ed8" },
             }}
           >
