@@ -8,10 +8,10 @@
     .upper_side{
         flex-direction: column;
         .typeof_tour{
-            width: 100%;
+            width: 100% !important;
         }
         .price_date{
-            width: 100%;
+            width: 100% !important;
         }
     }
     .bottom_side{
@@ -31,16 +31,16 @@
     .price_date{
         flex-direction: column;
         .price{
-            width: 100%;
+            width: 100% !important;
         }
         .date{
-            width: 100%;
+            width: 100% !important;
         }
     }
     .people_contacts{
         flex-direction: column;
         .people_contacts_item{
-            width: 100%;
+            width: 100% !important  ;
         }
     }
     .submit_btn{
